@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Media Device Access</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <!--<script type="text/javscript" src="https://raw.github.com/liuliu/ccv/stable/js/ccv.js"></script>
+    <script type="text/javascript" src="https://raw.github.com/liuliu/ccv/stable/js/face.js"></script>-->
+    <script src="../static/js/face.js"></script>
+    <script src="../static/js/ccv.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        video, img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+<h1> Are you more of a dog person or a cat person?</h1>
+<div class="row">
+    <div class="col-sm-5" style='align-content: center'>
+        <div id="video_play">
+            <video autoplay></video>
+            <canvas width="266" height="200"></canvas>
+        </div>
+    </div>
+    <div class="col-sm-2" style='align-content: center'>
+        <button type="button" class="btn btn-primary" onclick="takeSnapshot()">Take Snapshot</button>
+        <button type="button" class="btn btn-primary" id='check' onclick="check_dog_cat()">Check</button>
+        <p id='result'></p>
+    </div>
+    <div class="col-sm-5" id="snapshot">
+
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    (function () {
+        'use strict';
+        var video = document.querySelector('video')
+            , canvas;
+
+        /**
+         *  generates a still frame image from the stream in the <video>
+         *  appends the image to the <body>
+         */
+        function takeSnapshot() {
+            var img = document.querySelector('img') || document.createElement('img');
+            var context;
+            var width = video.offsetWidth
+                , height = video.offsetHeight;
+
+            canvas = canvas || document.createElement('canvas');
+            canvas.width = width;
+            canvas.height = height;
+
+            context = canvas.getContext('2d');
+
+            context.drawImage(video, 0, 0, width, height);
+            var face = ccv.detect_objects({canvas: (ccv.pre(canvas)), cascade: cascade, interval: 2, min_neighbors: 1});
+            var canva = canvas || document.createElement('canvas');
+            var cxt = canva.getContext('2d');
+
+            cxt.beginPath();
+            //cxt.fillRect(face.x, face.y, face.width, face.height);
+            //console.log(face['0'].x);
+            cxt.rect(face['0'].x, face['0'].y, face['0'].width, face['0'].height);
+            //cxt.rect(143, 88, 97, 97);
+            cxt.fillStyle = "rgba(255, 255, 255, 0)";
+            cxt.fill();
+            cxt.lineWidth = 1;
+            cxt.strokeStyle = 'black';
+            cxt.stroke();
+            console.log(face);
+            img.src = canva.toDataURL('image/png');
+            document.body.appendChild(img);
+        }
+
+        // use MediaDevices API
+        // docs: https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
+
+        if (navigator.mediaDevices) {
+            var canvas = document.querySelector('canvas');
+        //var canvas = canvas || document.createElement('canvas');
+            var context = canvas.getContext('2d');
+            // access the web cam
+            navigator.mediaDevices.getUserMedia({video: true})
+            // permission granted:
+                .then(function (stream) {
+                    video.src = URL.createObjectURL(stream);
+                    video.addEventListener('click', takeSnapshot);
+                    //video.play();
+                    var faceDetectionTimer = setInterval(function () {
+                        context.drawImage(video, 0, 0, canvas.width, canvas.height);
+                        var faces = ccv.detect_objects({
+                            canvas: ccv.pre(canvas),
+                            cascade: cascade,
+                            interval: 2,
+                            min_neighbors: 1
+                        });
+                        //console.log(faces);
+                        faces.forEach(function (face) {
+                            context.beginPath();
+                            context.rect(face.x, face.y, face.width, face.height);
+                            context.lineWidth = 1;
+                            context.strokeStyle = 'red';
+                            context.stroke();
+                        });
+                    }, 100);
+
+                    //return stream;
+                })
+
+                // permission denied:
+                //.catch(function (error) {
+                  //  document.body.textContent = 'Could not access the camera. Error: ' + error.name;
+                //});
+        }
+
+    })();
+
+
+    var image_data;
+    var face_data;
+    function takeSnapshot() {
+        face_data = {};
+        var video = document.querySelector('video');
+        var canvas = document.querySelector('canvas');
+        //var canvas = canvas || document.createElement('canvas');
+        //var context = canvas.getContext('2d');
+        var img = document.querySelector('img') || document.createElement('img');
+        var context;
+        var width = video.offsetWidth
+                , height = video.offsetHeight;
+
+        canvas = canvas || document.createElement('canvas');
+        canvas.width = width;
+        canvas.height = height;
+
+        context = canvas.getContext('2d');
+
+        context.drawImage(video, 0, 0, width, height);
+        var face = ccv.detect_objects({canvas: (ccv.pre(canvas)), cascade: cascade, interval: 2, min_neighbors: 1});
+        var canva = canvas || document.createElement('canvas');
+        var cxt = canva.getContext('2d');
+
+        cxt.beginPath();
+            //cxt.fillRect(face.x, face.y, face.width, face.height);
+            //console.log(face['0'].x);
+        cxt.rect(face['0'].x, face['0'].y, face['0'].width, face['0'].height);
+            //cxt.rect(143, 88, 97, 97);
+        cxt.fillStyle = "rgba(255, 255, 255, 0)";
+        cxt.fill();
+        cxt.lineWidth = 1;
+        cxt.strokeStyle = 'red';
+        cxt.stroke();
+        console.log(face);
+        img.src = canva.toDataURL('image/png');
+        //document.body.appendChild(img);
+        image_data = img.src
+        face_data = face;
+        document.getElementById('snapshot').appendChild(img)
+        //img = canvas.toBlob('image/png');
+
+
+    }
+
+    function check_dog_cat() {
+        //document.getElementById('snapshot').innerHTML = "";
+        var cat_dog;
+        console.log('we are here');
+        face_data = JSON.stringify(face_data);
+        console.log(face_data);
+        $.ajax({
+            method: 'post',
+            url: '/images',
+            data: {
+                imgData: image_data,
+                faceData: face_data
+            },
+            success: function (data) {
+                //console.log(data);
+                cat_dog = data.split(" ");
+                //console.log(cat_dog);
+                cat = cat_dog[0];
+                dog = cat_dog[1];
+                //console.log(data) ;
+                document.getElementById('result').innerHTML = "<p>You are " + cat + " percent cat and " + dog + " percent dog.";
+            }
+        })
+    }
+
+</script>
+</body>
+</html>

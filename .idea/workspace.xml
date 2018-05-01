@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f30748ef-9d34-4224-9b70-3dbef78fae67" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/static/tracking/.bowerrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/TODO.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/assets/opencv_haarcascade_converter.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/assets/opencv_haarcascade_eye.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/assets/opencv_haarcascade_frontalface_alt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/assets/opencv_haarcascade_mouth.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/assets/opencv_haarcascade_upper_body.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/build/data/eye-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/build/data/eye.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/build/data/face-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/build/data/face.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/build/data/mouth-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/build/data/mouth.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/build/tracking-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/build/tracking.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/book1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/book2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/box1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/box2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/brief1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/brief2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/color_camera_gui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/demo.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/draw_frame.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/emilia.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/faces.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/fast.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/fish_tank/FishTankRenderer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/fish_tank/nx.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/fish_tank/ny.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/fish_tank/nz.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/fish_tank/px.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/fish_tank/py.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/fish_tank/pz.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/frame.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/franck.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/franck.ogv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/franck.webm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/minions.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/minions.ogv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/psmove.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/splines.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/assets/stats.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/brief.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/brief_camera.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/color_camera.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/color_draw_something.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/color_fish_tank.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/color_hello_world.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/color_video.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/face_alignment_image.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/face_alignment_video.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/face_alignment_webcam.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/face_camera.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/face_fish_tank.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/face_hello_world.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/face_tag_friends.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/fast.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/examples/fast_camera.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/gulpfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/alignment/LBF.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/alignment/Regressor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/alignment/training/Landmarks.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/alignment/training/Regressor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/detection/ViolaJones.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/detection/training/haar/eye.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/detection/training/haar/face.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/detection/training/haar/mouth.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/features/Brief.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/features/Fast.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/math/Math.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/math/Matrix.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/pose/EPnP.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/trackers/ColorTracker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/trackers/LandmarksTracker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/trackers/ObjectTracker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/trackers/Tracker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/trackers/TrackerTask.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/tracking.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/utils/Canvas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/utils/DisjointSet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/utils/EventEmitter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/src/utils/Image.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/Benchmark.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/Brief.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/ColorTracker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/Fast.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/ObjectTracker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/assets/box1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/assets/box2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/assets/faces.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/assets/psmove.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/perf/Brief.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/perf/ColorTracker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/perf/Fast.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/perf/ObjectTracker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/utils/benchmark.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/tracking/test/utils/sandbox.js" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CatOrDog$CatOrDog.coverage" NAME="CatOrDog Coverage Results" MODIFIED="1525206464245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CatOrDog.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CatOrDog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>image</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/static/js/face.js" />
+        <option value="$PROJECT_DIR$/static/js/ccv.js" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/js/clmtrackr.js" />
+        <option value="$PROJECT_DIR$/static/js/model_pca_20_svm.js" />
+        <option value="$PROJECT_DIR$/templates/index2.html" />
+        <option value="$PROJECT_DIR$/CatOrDog.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CatOrDog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatOrDog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CatOrDog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatOrDog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CatOrDog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatOrDog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CatOrDog" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CatOrDog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CatOrDog.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f30748ef-9d34-4224-9b70-3dbef78fae67" name="Default" comment="" />
+      <created>1524399027426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524399027426</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33647057" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33647057" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/js/face.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/ccv.js" />
+    <entry file="file://$PROJECT_DIR$/templates/index2.html" />
+    <entry file="file://$PROJECT_DIR$/CatOrDog.py" />
+    <entry file="file://$PROJECT_DIR$/static/js/model_pca_20_svm.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/emotion_classifier.js" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/clmtrackr.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/face.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/ccv.js" />
+    <entry file="file://$PROJECT_DIR$/templates/index2.html" />
+    <entry file="file://$PROJECT_DIR$/CatOrDog.py" />
+    <entry file="file://$PROJECT_DIR$/static/js/face.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/ccv.js" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/CatOrDog.py" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/face.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/ccv.js" />
+    <entry file="file://$PROJECT_DIR$/CatOrDog.py" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/face.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/ccv.js" />
+    <entry file="file://$PROJECT_DIR$/CatOrDog.py" />
+    <entry file="file://$PROJECT_DIR$/CatOrDog.py" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/ccv.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/face.js" />
+    <entry file="file://$PROJECT_DIR$/CatOrDog.py" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/face.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/ccv.js" />
+    <entry file="file://$PROJECT_DIR$/CatOrDog.py" />
+    <entry file="file://$PROJECT_DIR$/static/js/face.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/ccv.js" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/CatOrDog.py" />
+    <entry file="file://$PROJECT_DIR$/static/js/face.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/ccv.js" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/CatOrDog.py" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/face.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/ccv.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/emotion_classifier.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/model_pca_20_svm.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/clmtrackr.js" />
+    <entry file="file://$PROJECT_DIR$/templates/index2.html" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/final-kg1642/CatOrDog.py" />
+    <entry file="file://$PROJECT_DIR$/CatOrDog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
